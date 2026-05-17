@@ -18,7 +18,7 @@ class NotificationActionReceiver : BroadcastReceiver(), KoinComponent {
 
     companion object {
         private const val TAG = "CancelReceiver"
-        private const val PACKAGE_NAME_PREFIX = "com.junkfood.seal."
+        private const val PACKAGE_NAME_PREFIX = "com.shnwazx.nexa."
 
         const val ACTION_CANCEL_TASK = 0
         const val ACTION_ERROR_REPORT = 1
